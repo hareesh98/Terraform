@@ -21,8 +21,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                 script{
-                        dir("terraform")
+                 script
                         {
                             git "https://github.com/hareesh98/Terraform.git"
                         }
