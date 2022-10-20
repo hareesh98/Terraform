@@ -25,7 +25,6 @@ pipeline {
                         {
                             git "https://github.com/hareesh98/Terraform.git"
                         }
-                    }
                 }
             }
 
